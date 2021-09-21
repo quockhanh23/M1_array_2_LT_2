@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let str = prompt('nhập một chuỗi có dấu - ')
+    let arr = str.split('');
+    // console.log(arr)
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == '-') {
+            arr[i] = '_';
+        }
+    }
+    let arr2 = arr.join('')
+    document.write(arr2)
+
+</script>

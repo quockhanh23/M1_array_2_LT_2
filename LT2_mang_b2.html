@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3> Viết một chương trình để in các ký tự trong một mảng theo thứ tự đảo ngược.</h3>
+</body>
+</html>
+<script>
+    let arr = []
+    while (arr.length < 6) {
+        let input = prompt('nhập')
+        arr.push(input)
+    }
+    // let arr = [ 'c', 's', 'c', '2', '6', '1' ]
+    arr.reverse()
+    let newarr = arr.join('');
+    document.write(newarr)
+</script>
